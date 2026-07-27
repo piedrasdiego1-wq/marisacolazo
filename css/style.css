@@ -158,6 +158,14 @@ a {
 .panel.pink { background: var(--pink-bg); }
 .panel.aqua { background: var(--aqua-bg); }
 
+.panel-logo {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
 .panel h2 {
   font-family: var(--font-heading);
   font-size: 1.5rem;
@@ -214,6 +222,38 @@ body.theme-aqua .callout { background: var(--aqua-bg); border-color: var(--aqua-
   color: var(--color-text-light);
   max-width: 560px;
   margin: 0 auto;
+}
+
+.hero-photo {
+  max-width: 260px;
+  margin: 24px auto 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.hero-photo img {
+  width: 100%;
+  display: block;
+}
+
+.media-player {
+  max-width: 480px;
+  margin: 32px auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.media-player video {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+.media-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-top: 10px;
 }
 
 main {
