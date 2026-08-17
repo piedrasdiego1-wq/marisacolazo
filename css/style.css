@@ -16,6 +16,11 @@
   --aqua-dark: #085041;
   --aqua-text: #0f6e56;
 
+  --sage-bg: #edf1e6;
+  --sage-mid: #bdd1a8;
+  --sage-dark: #3f5730;
+  --sage-text: #52703f;
+
   --radius: 14px;
   --max-width: 980px;
   --font-heading: Georgia, "Times New Roman", serif;
@@ -157,6 +162,7 @@ a {
 
 .panel.pink { background: var(--pink-bg); }
 .panel.aqua { background: var(--aqua-bg); }
+.panel.sage { background: var(--sage-bg); }
 
 .panel-logo {
   width: 84px;
@@ -174,6 +180,7 @@ a {
 
 .panel.pink h2 { color: var(--pink-dark); }
 .panel.aqua h2 { color: var(--aqua-dark); }
+.panel.sage h2 { color: var(--sage-dark); }
 
 .panel p {
   font-size: 0.95rem;
@@ -182,6 +189,7 @@ a {
 
 .panel.pink p { color: var(--pink-text); }
 .panel.aqua p { color: var(--aqua-text); }
+.panel.sage p { color: var(--sage-text); }
 
 .panel .pill {
   display: inline-block;
@@ -193,6 +201,7 @@ a {
 
 .panel.pink .pill { background: var(--pink-mid); color: var(--pink-dark); }
 .panel.aqua .pill { background: var(--aqua-mid); color: var(--aqua-dark); }
+.panel.sage .pill { background: var(--sage-mid); color: var(--sage-dark); }
 
 /* Section-specific page themes */
 body.theme-pink .page-hero { background: var(--pink-bg); }
@@ -206,6 +215,12 @@ body.theme-aqua .page-hero h1 { color: var(--aqua-dark); }
 body.theme-aqua .cta-btn { background: var(--aqua-dark); }
 body.theme-aqua .section-title { color: var(--aqua-dark); border-color: var(--aqua-mid); }
 body.theme-aqua .callout { background: var(--aqua-bg); border-color: var(--aqua-mid); }
+
+body.theme-sage .page-hero { background: var(--sage-bg); }
+body.theme-sage .page-hero h1 { color: var(--sage-dark); }
+body.theme-sage .cta-btn { background: var(--sage-dark); }
+body.theme-sage .section-title { color: var(--sage-dark); border-color: var(--sage-mid); }
+body.theme-sage .callout { background: var(--sage-bg); border-color: var(--sage-mid); }
 
 .page-hero {
   padding: 48px 0;
@@ -366,6 +381,7 @@ main {
 
 body.theme-pink .ig-follow-btn { background: var(--pink-mid); color: var(--pink-dark) !important; }
 body.theme-aqua .ig-follow-btn { background: var(--aqua-mid); color: var(--aqua-dark) !important; }
+body.theme-sage .ig-follow-btn { background: var(--sage-mid); color: var(--sage-dark) !important; }
 
 /* Scroll reveal */
 .reveal {
